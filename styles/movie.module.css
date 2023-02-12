@@ -1,0 +1,44 @@
+@media (max-width: 1024px){
+    .movieContainer {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+.movieContainer .title, 
+.movieContainer .content {
+    color: #fff;
+}
+
+.movieContainer .title {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 6px 0 6px 0;
+}
+
+.movieContainer .content {
+    font-size: 10.5px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.movieContainer .image {
+    width: 100%;
+}
+
+@media (max-width: 1020px){
+    .movieContainer .image {
+        max-height: 275px;
+        height: 275px;
+        object-fit: cover;
+    }
+}
